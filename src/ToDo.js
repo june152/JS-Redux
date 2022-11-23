@@ -6,7 +6,7 @@ import { remove } from "./routes/store";
 function ToDo({ text, deleteToDo, id }) {
   return (
     <li>
-      <Link to={`/${id}`}>{text}</Link>
+      <Link to={`/vanilla-redux/${id}`}>{text}</Link>
       <button onClick={deleteToDo}>Del</button>
     </li>
   );
